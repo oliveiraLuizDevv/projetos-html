@@ -1,0 +1,164 @@
+/*Define o fundo, a fonte e o espaçamento geral da página*/
+body {
+    background-color: #f4efe3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*CABEÇALHO */
+
+/* Estiliza o cabeçalho principal */
+header {
+    background-color: #31572c;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* Estiliza o título principal */
+h1 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+
+/* MENU */
+
+/* Estiliza o menu de navegação */
+.menu {
+    margin-top: 20px;
+}
+
+
+/* Estiliza os links do menu */
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+
+/*  TÍTULOS */
+
+/* Estiliza os títulos das seções */
+h2 {
+    color: #31572c;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/* PARÁGRAFOS */
+
+/* Estiliza os textos da página */
+p {
+    color: #c9b458;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* SEÇÃO PRINCIPAL */
+
+/* Define o espaçamento das seções */
+section {
+    padding: 35px;
+}
+
+
+/* Centraliza e limita a imagem principal */
+#inicio img {
+    display: block;
+    width: 600px;
+    max-width: 100%;
+    margin: 25px auto;
+    border-radius: 12px;
+    border: 3px solid #31572c;
+}
+
+
+/* CARDÁPIO */
+
+/* Define a aparência geral da seção do cardápio */
+#cardapio {
+    background-color: #fffaf0;
+}
+
+
+/* Estiliza cada prato */
+.prato {
+    background-color: white;
+    border: 2px solid #c9b458;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 650px;
+}
+
+
+/* Estiliza o nome de cada prato */
+.prato h3 {
+    color: #31572c;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+
+/* PREÇOS */
+
+/* Estiliza os preços dentro dos pratos */
+.prato .preco {
+    color: #b05a00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* PRATO ESPECIAL */
+
+/* Destaca o prato especial da casa */
+.destaque {
+    background-color: #fff3c4;
+    border: 3px solid #b8860b;
+}
+
+
+/*  CONTATO */
+
+/* Estiliza a seção de informações */
+#contato {
+    background-color: #e5f0df;
+    border-top: 3px solid #31572c;
+}
+
+
+/* SELETOR DE AGRUPAMENTO */
+
+/* Aplica a mesma configuração aos títulos */
+h1,
+h2 {
+    letter-spacing: 1px;
+}
+
+
+/* RODAPÉ */
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #263d1f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* Estiliza os parágrafos do rodapé */
+footer p {
+    color: white;
+    font-size: 14px;
+}
